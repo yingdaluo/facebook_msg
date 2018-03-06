@@ -1,7 +1,7 @@
 var proxy = require('express-http-proxy');
 var app = require('express')();
 
-var server_port = process.env.PORT || 3000;
+var server_port = process.env.PORT || 8080;
 
 const login = require("facebook-chat-api");
 var bodyParser = require('body-parser');
